@@ -14,4 +14,5 @@ Curso de métodos estadísticos para el semestre Agosto - Diciembre 2026
 + Cloné mi repositorio de _Github_ hacia RStuduio
 + Activar credenciales de _Github_ para sincronizar repositorio
 + Primera sincronización exitosa :heavy_check_mark:
-+ Me aparecio error con los serviodres internos
++ Me aparecio error con los serviodres internos al tratar de subir el archivo a la nube :heavy_exclamation_mark:
++ Se solucionó :heavy_check_mark:
