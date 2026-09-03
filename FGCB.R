@@ -20,6 +20,20 @@ Obs$Tratamiento
 boxplot(Obs$IE ~ Obs$Tratamiento, 
         xlab = "Factor = Fertilizante",
         ylab = "Índice (IE)",
-        col = "lightblue",
+        col = "purple",
         main = "Unidad Experimental")
 
+#Conocer la varianza de cada grupo
+
+df_ctrl <- subset(Obs, Tratamiento == "Ctrl")
+df_fert <- subset(Obs, Tratamiento != "Ctrl")
+df_fert <- subset(Obs, Tratamiento == "Fert")
+
+var(df_ctrl$IE)
+var(df_fert$IE)
+
+mean(df_ctrl$IE)
+mean(df_fert$IE)
+
+#La varianaza del grupo fertilizado es 3 veces mayor que la varianza del grupo control
+#Pregunta, ¿Serán las varianzas iguales o diferentes estadísticamnete)
