@@ -36,6 +36,7 @@ mean(df_ctrl$IE)
 mean(df_fert$IE)
 
 #La varianaza del grupo fertilizado es 3 veces mayor que la varianza del grupo control
+
 #Pregunta 
 #¿Provienen de una distribución normal ambos grupos?
 shapiro.test(df_ctrl$IE) 
@@ -47,5 +48,10 @@ shapiro.test(df_fert$IE)
 var.test(df_ctrl$IE, df_fert$IE)
 #Las varianzas de ambos grupos son iguales
 
+#Existen diferencias entre los tratamientos 
+t.test(df_ctrl$IE,df_fert$IE, var.equal = TRUE)
+
+#Si la pregunta es que el fert es mayor que ctrl
+t.test(df_fert$IE, df_ctrl$IE, var.equal = TRUE, alternative = "greater")
 
 
