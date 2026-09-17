@@ -30,3 +30,4 @@ t.test(costal, mu = 80, alternative = "less")
 #Se rechaza H0 porque el valor de p es menor que 0.05.
 
 #Conclusión: con el valor de p podemos rechazar la hipótesis nula ya que este mostro menor valor que a. Dandanos suficientes pruebas estadisticas para afirmar que el peso neto en los costales no es el establecido.
+

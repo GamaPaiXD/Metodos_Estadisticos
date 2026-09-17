@@ -58,3 +58,4 @@ barplot (gastos_ordenados,
 ##Calificación general: A, B, C, D, F. - Cualitativa
 ##Tiempo (en minutos) para completar el examen final. - Cuantitativa
 ##Numero de hermanos. - Cuantitativa
+

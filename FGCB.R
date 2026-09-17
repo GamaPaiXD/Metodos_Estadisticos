@@ -51,7 +51,7 @@ var.test(df_ctrl$IE, df_fert$IE)
 #Existen diferencias entre los tratamientos 
 t.test(df_ctrl$IE,df_fert$IE, var.equal = TRUE)
 
-#Si la pregunta es que el fert es mayor que ctrl
-t.test(df_fert$IE, df_ctrl$IE, var.equal = TRUE, alternative = "greater")
+#Si la pregunta es que el ctrl es menor que fert
+t.test(df_ctrl$IE, df_fert$IE, var.equal = TRUE, alternative = "less")
 
 
