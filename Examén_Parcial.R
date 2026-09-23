@@ -27,3 +27,4 @@ hist(anillos$RW,
      col = "purple",
      border = "white")
 
+#Fernando Gamaliel Coronado Bazaldúa
