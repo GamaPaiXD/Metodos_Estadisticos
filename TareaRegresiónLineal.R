@@ -16,11 +16,11 @@ var(erupciones$waiting)
 cor.test(erupciones$eruptions, erupciones$waiting)
 erulm <- lm(erupciones$eruptions ~ erupciones$waiting)
 summary (erulm)
-(-1.874016+0.075628*N1)
-(-1.874016+0.075628*N2)
-(-1.874016+0.075628*N3)
-(-1.874016+0.075628*N4)
-(-1.874016+0.075628*N5)
+(-1.874016+0.075628*x1)
+(-1.874016+0.075628*x2)
+(-1.874016+0.075628*x3)
+(-1.874016+0.075628*x4)
+(-1.874016+0.075628*x5)
 
 #Media: eruption 3.488, waiting 70.9.
 #Desviación estándar: eruption 1.141371, waiting 13.59497.
@@ -36,11 +36,11 @@ summary (erulm)
 #Es significativa la regresión: Si 
 #¿Cuál será la duración en minutos de la proxima erupción, si los tiempos de espera son los dados en el siguiente cuadro?
 
-N1 <- c(80) #4.176224
-N2 <- c(40) #1.151104
-N3 <- c(45) #1.529244
-N4 <- c(53) #2.134268
-N5 <- c(61) #2.739292
+x1 <- c(80) #4.176224
+x2 <- c(40) #1.151104
+x3 <- c(45) #1.529244
+x4 <- c(53) #2.134268
+x5 <- c(61) #2.739292
 
 #Ejercicio 2
 
