@@ -35,6 +35,7 @@ summary (erulm)
 #¿Son significativas las regresoras: intercepto (α) y lapendiente (β)?: Si, ambas presentan un valor muy cercano a cero 
 #Es significativa la regresión: Si 
 #¿Cuál será la duración en minutos de la proxima erupción, si los tiempos de espera son los dados en el siguiente cuadro?
+
 N1 <- c(80) #4.176224
 N2 <- c(40) #1.151104
 N3 <- c(45) #1.529244
@@ -66,6 +67,7 @@ summary (pilm)
 #¿Son significativas las regresoras: intercepto (α) y la pendiente (β)?: Si, ambas presentan un valor muy cercano a cero 
 #Es significativa la regresión: Si 
 #¿Cuál será la edad en años si los DAP estan dados en el siguiente cuadro?
+
 DAP1 <- c(12) #13.86827
 DAP2 <- c(20) #15.94931
 DAP3 <- c(26) #17.51009
