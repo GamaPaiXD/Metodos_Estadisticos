@@ -47,3 +47,4 @@ sum(erupciones$residual)
 determinar <- c(62, 75, 81)
 modelo <- lm(determinar ~ 1)
 summary(modelo)
+erupciones
