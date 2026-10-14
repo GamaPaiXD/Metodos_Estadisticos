@@ -1,4 +1,4 @@
-#Coreelación
+#Correlación
 #Importar daros de altura y diámetro
 
 erupciones <- faithful
