@@ -65,3 +65,8 @@ Las actividades se presentan siguiendo el orden cronológico de su realización:
 ## :memo: Registro de avances
 
 Los cambios realizados en el repositorio se documentan mediante commits, utilizando mensajes descriptivos que permiten identificar las modificaciones y avances realizados durante el curso.
+## :bar_chart: Evidencia de contribuciones
+
+La siguiente gráfica muestra el registro de contribuciones realizadas durante el desarrollo de este repositorio.
+
+![Gráfica de contribuciones](Evidencias/contributors.png)
