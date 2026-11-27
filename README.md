@@ -69,4 +69,4 @@ Los cambios realizados en el repositorio se documentan mediante commits, utiliza
 
 La siguiente gráfica muestra el registro de contribuciones realizadas durante el desarrollo de este repositorio.
 
-![Gráfica de contribuciones](Evidencias/Contributors.jpg)
+![Gráfica de contribuciones](Contributors.jpg)
